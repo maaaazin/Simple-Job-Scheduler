@@ -1,0 +1,194 @@
+Sept 20, 2025 11:56:51 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-4waiting for dependency: Job-2
+Sept 20, 2025 11:56:51 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-3waiting for dependency: Job-1
+Sept 20, 2025 11:56:51 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-2waiting for dependency: Job-1
+Sept 20, 2025 11:56:51 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:51 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-2 (ID: 8d228f7a-d41b-4eed-928d-e3adc08178ce)
+Sept 20, 2025 11:56:51 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:51 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:51 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:51 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-3 (ID: c27ac7ff-f81a-4375-b590-297919e93b6c)
+Sept 20, 2025 11:56:52 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:52 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-2 (ID: 8d228f7a-d41b-4eed-928d-e3adc08178ce)
+Sept 20, 2025 11:56:52 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:52 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-5waiting for dependency: Job-1
+Sept 20, 2025 11:56:52 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:53 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-2 (ID: 8d228f7a-d41b-4eed-928d-e3adc08178ce)
+Sept 20, 2025 11:56:53 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:53 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-2 (ID: 8d228f7a-d41b-4eed-928d-e3adc08178ce)
+Sept 20, 2025 11:56:53 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-6waiting for dependency: Job-4
+Sept 20, 2025 11:56:53 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:53 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-3 (ID: c27ac7ff-f81a-4375-b590-297919e93b6c)
+Sept 20, 2025 11:56:53 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-7waiting for dependency: Job-5
+Sept 20, 2025 11:56:53 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-5 (ID: 860c5c57-ac27-49ee-94a8-b42201ea9dd6)
+Sept 20, 2025 11:56:54 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:54 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-5 (ID: 860c5c57-ac27-49ee-94a8-b42201ea9dd6)
+Sept 20, 2025 11:56:54 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:54 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-6 (ID: d49d4acc-bcfc-43cd-b673-2320d5eaeba8)
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:55 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-8waiting for dependency: Job-5
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-5 (ID: 860c5c57-ac27-49ee-94a8-b42201ea9dd6)
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-5 (ID: 860c5c57-ac27-49ee-94a8-b42201ea9dd6)
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-7 (ID: a8edf265-7eda-4d23-a5be-4cd069937656)
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-5 (ID: 860c5c57-ac27-49ee-94a8-b42201ea9dd6)
+Sept 20, 2025 11:56:55 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-9waiting for dependency: Job-4
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-6 (ID: d49d4acc-bcfc-43cd-b673-2320d5eaeba8)
+Sept 20, 2025 11:56:55 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-10waiting for dependency: Job-4
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-5 (ID: 860c5c57-ac27-49ee-94a8-b42201ea9dd6)
+Sept 20, 2025 11:56:55 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-8 (ID: 5b0daf25-88d2-4a57-a4e3-c62b85489232)
+Sept 20, 2025 11:56:56 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-7 (ID: a8edf265-7eda-4d23-a5be-4cd069937656)
+Sept 20, 2025 11:56:56 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-11waiting for dependency: Job-4
+Sept 20, 2025 11:56:56 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:56 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:56 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-9 (ID: 93c40827-122d-4701-b44f-dcbf4fa8026c)
+Sept 20, 2025 11:56:56 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:56 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-10 (ID: 8863c332-f496-47cd-859f-ef8d1b9ce6fa)
+Sept 20, 2025 11:56:57 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-8 (ID: 5b0daf25-88d2-4a57-a4e3-c62b85489232)
+Sept 20, 2025 11:56:57 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-12waiting for dependency: Job-3
+Sept 20, 2025 11:56:57 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-3 (ID: c27ac7ff-f81a-4375-b590-297919e93b6c)
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-9 (ID: 93c40827-122d-4701-b44f-dcbf4fa8026c)
+Sept 20, 2025 11:56:58 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-13waiting for dependency: Job-8
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-8 (ID: 5b0daf25-88d2-4a57-a4e3-c62b85489232)
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-11 (ID: 5bf28ab9-a2e4-45fd-b10c-2e49488025d8)
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-10 (ID: 8863c332-f496-47cd-859f-ef8d1b9ce6fa)
+Sept 20, 2025 11:56:58 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-14waiting for dependency: Job-12
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-12 (ID: d1120ba9-3034-4226-b6ea-04986b8916bd)
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-8 (ID: 5b0daf25-88d2-4a57-a4e3-c62b85489232)
+Sept 20, 2025 11:56:58 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-13 (ID: 7e077db9-4af4-4b38-9778-b157875e529d)
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-12 (ID: d1120ba9-3034-4226-b6ea-04986b8916bd)
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-14 (ID: dfc52b29-1e3f-40fe-9c49-20575a18e91d)
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-3 (ID: c27ac7ff-f81a-4375-b590-297919e93b6c)
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-12 (ID: d1120ba9-3034-4226-b6ea-04986b8916bd)
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-11 (ID: 5bf28ab9-a2e4-45fd-b10c-2e49488025d8)
+Sept 20, 2025 11:56:59 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-15waiting for dependency: Job-12
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-12 (ID: d1120ba9-3034-4226-b6ea-04986b8916bd)
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-13 (ID: 7e077db9-4af4-4b38-9778-b157875e529d)
+Sept 20, 2025 11:56:59 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-16waiting for dependency: Job-1
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-14 (ID: dfc52b29-1e3f-40fe-9c49-20575a18e91d)
+Sept 20, 2025 11:56:59 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-17waiting for dependency: Job-4
+Sept 20, 2025 11:56:59 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:57:00 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-4 (ID: 7e2869ed-7835-4124-8563-1a049cb9cd99)
+Sept 20, 2025 11:57:00 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-17 (ID: 12fb7579-66bb-4c6d-9877-17cbbbaee08d)
+Sept 20, 2025 11:57:00 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:57:00 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-16 (ID: f9ddee5e-c276-422a-9022-ced564217604)
+Sept 20, 2025 11:57:01 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-12 (ID: d1120ba9-3034-4226-b6ea-04986b8916bd)
+Sept 20, 2025 11:57:01 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-18waiting for dependency: Job-15
+Sept 20, 2025 11:57:01 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-15 (ID: 5b0e55bf-4cff-44e2-9392-e25d2fd4588a)
+Sept 20, 2025 11:57:01 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-12 (ID: d1120ba9-3034-4226-b6ea-04986b8916bd)
+Sept 20, 2025 11:57:01 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-15 (ID: 5b0e55bf-4cff-44e2-9392-e25d2fd4588a)
+Sept 20, 2025 11:57:02 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-17 (ID: 12fb7579-66bb-4c6d-9877-17cbbbaee08d)
+Sept 20, 2025 11:57:02 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-19waiting for dependency: Job-1
+Sept 20, 2025 11:57:02 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:57:02 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-15 (ID: 5b0e55bf-4cff-44e2-9392-e25d2fd4588a)
+Sept 20, 2025 11:57:02 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-18 (ID: 396867d7-2827-46bc-982c-14106bbf22cd)
+Sept 20, 2025 11:57:02 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-16 (ID: f9ddee5e-c276-422a-9022-ced564217604)
+Sept 20, 2025 11:57:02 PM com.scheduler.JobScheduler lambda$0
+INFO: Job-20waiting for dependency: Job-1
+Sept 20, 2025 11:57:02 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:57:03 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-15 (ID: 5b0e55bf-4cff-44e2-9392-e25d2fd4588a)
+Sept 20, 2025 11:57:03 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:57:03 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-20 (ID: 6c4e695d-0b9d-4c68-8870-3ea0069d0b7d)
+Sept 20, 2025 11:57:03 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-18 (ID: 396867d7-2827-46bc-982c-14106bbf22cd)
+Sept 20, 2025 11:57:04 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-1 (ID: 4b994c67-c121-430c-9e60-b6212a58449a)
+Sept 20, 2025 11:57:04 PM com.scheduler.Job execute
+INFO: Job STARTED: Job-19 (ID: ae505484-a5f2-4f78-859d-832053350bd3)
+Sept 20, 2025 11:57:04 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-20 (ID: 6c4e695d-0b9d-4c68-8870-3ea0069d0b7d)
+Sept 20, 2025 11:57:04 PM com.scheduler.Job execute
+INFO: Job COMPLETED: Job-19 (ID: ae505484-a5f2-4f78-859d-832053350bd3)
