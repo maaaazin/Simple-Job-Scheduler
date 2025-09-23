@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) {
         JobScheduler scheduler = new JobScheduler();
 
-        int n = 20; // No of jobs to be scheduled
+        int n = 20; // no of jobs to be scheduled
 
         List<Job> jobs = JobGenerator.generateJobs(n);
 
@@ -14,7 +14,7 @@ public class App {
             scheduler.scheduleJob(job);
         }
 
-        // Give some time before shutdown
+        // give some time before shutdown
         try { 
             Thread.sleep(15000);
         } catch (InterruptedException e) { 

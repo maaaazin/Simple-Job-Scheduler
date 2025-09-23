@@ -6,13 +6,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-
 public class LoggerUtil {
     private static Logger logger = Logger.getLogger("JobSchedulerLogger");
 
     static {
         try {
-            // Create a file handler (append mode true)
+            // create a file handler (append mode true)
             FileHandler fileHandler = new FileHandler("jobs.log", true);
             fileHandler.setFormatter(new SimpleFormatter());
 
